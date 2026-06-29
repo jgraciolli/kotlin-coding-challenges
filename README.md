@@ -51,13 +51,13 @@ multiple times and be persistent over time.
 
 **Beginner**
 
-- [Capitalize sentence](src/test/kotlin/com/igorwojda/string/capitalizesentence)
-- [Get odd numbers](src/test/kotlin/com/igorwojda/integer/getodd)
-- [Range contains range?](src/test/kotlin/com/igorwojda/range/containsrange)
-- [Add up to](src/test/kotlin/com/igorwojda/integer/addupto)
-- [Linear search](src/test/kotlin/com/igorwojda/list/search/linearsearch)
-- [Count down](src/test/kotlin/com/igorwojda/integer/countdown)
-- [Count up and down](src/test/kotlin/com/igorwojda/integer/countupanddown)
+- [Capitalize sentence](src/test/kotlin/com/igorwojda/string/capitalizesentence) ✅
+- [Get odd numbers](src/test/kotlin/com/igorwojda/integer/getodd) ✅
+- [Range contains range?](src/test/kotlin/com/igorwojda/range/containsrange) ✅
+- [Add up to](src/test/kotlin/com/igorwojda/integer/addupto) ✅
+- [Linear search](src/test/kotlin/com/igorwojda/list/search/linearsearch) ✅
+- [Count down](src/test/kotlin/com/igorwojda/integer/countdown) ✅
+- [Count up and down](src/test/kotlin/com/igorwojda/integer/countupanddown) ✅
 - [Format train route](src/test/kotlin/com/igorwojda/list/formattrainroute)
 - [Generate all pairs](src/test/kotlin/com/igorwojda/integer/generateallpairs)
 - [Count unique values](src/test/kotlin/com/igorwojda/list/countuniquevalues)

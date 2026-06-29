@@ -1,0 +1,3 @@
+        var result: Boolean
+        result = (range1.contains(range2.first) && range1.contains(range2.last))
+        return result

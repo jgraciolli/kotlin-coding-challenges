@@ -1,0 +1,8 @@
+        var oddNumbers = mutableListOf<Int>()
+        
+        for (i in list.indices) {
+            if (list[i] % 2 != 0) 
+                oddNumbers.add(list[i])
+        }
+        
+        return oddNumbers

@@ -1,0 +1,7 @@
+        var result: Int = -1;
+
+        for (i in list.indices)
+            if (list[i] == str)
+                result = i
+
+        return result

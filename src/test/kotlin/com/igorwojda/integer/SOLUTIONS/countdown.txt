@@ -1,0 +1,7 @@
+        var intList = mutableListOf<Int>()
+
+        for (i in n downTo 0) {
+            intList.add(i)
+        }
+
+        return intList

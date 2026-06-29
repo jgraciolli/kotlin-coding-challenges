@@ -1,0 +1,9 @@
+        val splitStr = str.split(" ")
+        var capitalizedStr: String = ""
+
+        for (i in splitStr.indices) {
+            val capitalizedWord = splitStr[i].capitalize()
+            capitalizedStr += "$capitalizedWord "
+        }
+
+        return capitalizedStr.trim()

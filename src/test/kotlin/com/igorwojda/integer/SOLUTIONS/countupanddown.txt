@@ -1,0 +1,11 @@
+        var mirroredList = mutableListOf<Int>()
+
+        for (i in 0..n)
+            mirroredList.add(i)
+
+        for (i in n downTo 0)
+            mirroredList.add(i)
+
+        mirroredList.remove(n)
+
+        return mirroredList
