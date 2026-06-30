@@ -1,0 +1,7 @@
+        var result: Int = 1;
+
+        for (i in 1..exponent)
+            result *= base
+
+        println(result)
+        return result

@@ -1,0 +1,9 @@
+        val capitalizedList = mutableListOf<String>()
+
+        for (i in list.indices) {
+            val capitalizedString = list[i].replaceFirstChar { it.uppercase() }
+            capitalizedList.add(capitalizedString)
+        }
+
+        println(capitalizedList)
+        return capitalizedList

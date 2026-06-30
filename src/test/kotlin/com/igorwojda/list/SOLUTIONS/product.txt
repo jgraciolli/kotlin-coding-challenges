@@ -1,0 +1,6 @@
+        var productSum: Int = 1
+
+        for (i in list.indices)
+            productSum *= list[i]
+
+        return productSum

@@ -1,0 +1,17 @@
+        var trainCall: String = "Train is calling at";
+
+        for (i in stations.indices) {
+            val station = stations[i]
+            trainCall += " $station,"
+        }
+
+        trainCall = trainCall.removeSuffix(",")
+
+        if (stations.size > 1) {
+            val lastComma = trainCall.lastIndexOf(",")
+            trainCall = trainCall.substring(0, lastComma) + " and" +
+                    trainCall.substring(lastComma + 1, )
+        }
+
+        println(trainCall)
+        return trainCall

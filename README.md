@@ -58,15 +58,15 @@ multiple times and be persistent over time.
 - [Linear search](src/test/kotlin/com/igorwojda/list/search/linearsearch) ✅
 - [Count down](src/test/kotlin/com/igorwojda/integer/countdown) ✅
 - [Count up and down](src/test/kotlin/com/igorwojda/integer/countupanddown) ✅
-- [Format train route](src/test/kotlin/com/igorwojda/list/formattrainroute)
-- [Generate all pairs](src/test/kotlin/com/igorwojda/integer/generateallpairs)
-- [Count unique values](src/test/kotlin/com/igorwojda/list/countuniquevalues)
-- [Print number](src/test/kotlin/com/igorwojda/integer/printnumber/basic)
-- [Print number with steps](src/test/kotlin/com/igorwojda/integer/printnumber/steps)
-- [Power](src/test/kotlin/com/igorwojda/integer/power)
-- [Factorial](src/test/kotlin/com/igorwojda/integer/factorial)
-- [Product](src/test/kotlin/com/igorwojda/list/product)
-- [Capitalize first](src/test/kotlin/com/igorwojda/list/capitalizefirst)
+- [Format train route](src/test/kotlin/com/igorwojda/list/formattrainroute) ✅
+- [Generate all pairs](src/test/kotlin/com/igorwojda/integer/generateallpairs) ✅
+- [Count unique values](src/test/kotlin/com/igorwojda/list/countuniquevalues) ✅
+- [Print number](src/test/kotlin/com/igorwojda/integer/printnumber/basic) ✅
+- [Print number with steps](src/test/kotlin/com/igorwojda/integer/printnumber/steps) ✅
+- [Power](src/test/kotlin/com/igorwojda/integer/power) ✅
+- [Factorial](src/test/kotlin/com/igorwojda/integer/factorial) ✅
+- [Product](src/test/kotlin/com/igorwojda/list/product) ✅
+- [Capitalize first](src/test/kotlin/com/igorwojda/list/capitalizefirst) ✅
 - [Decapitalize const](src/test/kotlin/com/igorwojda/string/decapitalizeconst)
 - [Longest word](src/test/kotlin/com/igorwojda/string/longestword)
 - [Reverse list](src/test/kotlin/com/igorwojda/list/reverse)

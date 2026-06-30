@@ -1,0 +1,13 @@
+        var uniqueValues: Int = 0;
+        val foundValues = mutableListOf<Int>()
+
+        for (i in list.indices) {
+            val value = list[i]
+
+            if (foundValues.count{ it == value } == 0)
+                uniqueValues++
+
+            foundValues.add(value)
+        }
+
+        return uniqueValues

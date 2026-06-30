@@ -1,0 +1,7 @@
+        val countDown = mutableListOf<Int>()
+
+        for (i in n downTo 1 step step)
+            countDown.add(i)
+
+        println(countDown)
+        return countDown
