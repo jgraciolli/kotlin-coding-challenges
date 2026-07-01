@@ -1,0 +1,10 @@
+        val lengthIsEven = (str.length % 2 == 0)
+
+        for (i in str.indices) {
+            val charRepeat = str.count({ it == str[i] })
+
+            if (charRepeat % 2 != 0 && lengthIsEven)
+                return false
+        }
+
+        return true

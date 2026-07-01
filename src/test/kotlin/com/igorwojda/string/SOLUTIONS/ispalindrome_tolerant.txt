@@ -1,0 +1,24 @@
+        var helpString: String
+        var i: Int = 0
+        var k: Int = str.lastIndex
+
+        while (i <= k) {
+            if (str[i] != str[k]) {
+                helpString = str.substring(0, i) + str.substring(i + 1)
+
+                if (helpString == helpString.reversed())
+                    return true
+
+                helpString = str.substring(0, k) + str.substring(k + 1)
+
+                if (helpString == helpString.reversed())
+                    return true
+
+                return false
+            }
+
+            i++
+            k--
+        }
+
+        return true

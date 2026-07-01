@@ -73,10 +73,10 @@ multiple times and be persistent over time.
 
 **Intermediate**
 
-- [Is palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/basic)
-- [Is tolerant palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/tolerant)
-- [Is permutation palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/permutation)
-- [Is anagram](src/test/kotlin/com/igorwojda/string/isanagram)
+- [Is palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/basic) ✅
+- [Is tolerant palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/tolerant) ✅
+- [Is permutation palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/permutation) ✅
+- [Is anagram](src/test/kotlin/com/igorwojda/string/isanagram) ✅
 - [Max occurring char](src/test/kotlin/com/igorwojda/string/maxoccurringchar)
 - [String reverse](src/test/kotlin/com/igorwojda/string/reverse)
 - [Find the vowels](src/test/kotlin/com/igorwojda/string/vowels)

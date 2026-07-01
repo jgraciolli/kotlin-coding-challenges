@@ -1,0 +1,12 @@
+        var i: Int = 0
+        var k: Int = str.lastIndex
+
+        while (i <= k) {
+            if (str[i] != str[k])
+                return false
+
+            i++
+            k--
+        }
+
+        return true
