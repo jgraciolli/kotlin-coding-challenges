@@ -1,0 +1,13 @@
+        val splitString = str.split("_").filter { it.isNotEmpty() }
+        var camelcaseString: String = ""
+
+        for (i in splitString.indices) {
+            val formattedString = splitString[i].lowercase().replace("_", "")
+                .replaceFirstChar { it.uppercase() }
+            camelcaseString += formattedString
+        }
+
+        camelcaseString = camelcaseString.replaceFirstChar { it.lowercase() }
+
+        println(camelcaseString)
+        return camelcaseString

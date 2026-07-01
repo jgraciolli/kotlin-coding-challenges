@@ -67,9 +67,9 @@ multiple times and be persistent over time.
 - [Factorial](src/test/kotlin/com/igorwojda/integer/factorial) ✅
 - [Product](src/test/kotlin/com/igorwojda/list/product) ✅
 - [Capitalize first](src/test/kotlin/com/igorwojda/list/capitalizefirst) ✅
-- [Decapitalize const](src/test/kotlin/com/igorwojda/string/decapitalizeconst)
-- [Longest word](src/test/kotlin/com/igorwojda/string/longestword)
-- [Reverse list](src/test/kotlin/com/igorwojda/list/reverse)
+- [Decapitalize const](src/test/kotlin/com/igorwojda/string/decapitalizeconst) ✅
+- [Longest word](src/test/kotlin/com/igorwojda/string/longestword) ✅
+- [Reverse list](src/test/kotlin/com/igorwojda/list/reverse) ✅
 
 **Intermediate**
 

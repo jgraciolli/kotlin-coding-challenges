@@ -1,0 +1,20 @@
+        var formattedStr: String = ""
+
+        for (i in str.indices) {
+            if (!str[i].isLetter())
+                formattedStr += " "
+            else
+                formattedStr += str[i]
+        }
+
+        val splitString: List<String> = formattedStr.split(" ")
+        var longestWord: String = splitString[0].trim()
+
+        for (i in splitString.indices) {
+            val word: String = splitString[i].trim()
+
+            if (word.length > longestWord.length)
+                longestWord = word
+        }
+
+        return longestWord
