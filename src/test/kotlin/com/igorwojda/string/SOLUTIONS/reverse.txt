@@ -1,0 +1,6 @@
+        var reversedString = ""
+
+        for (i in str.lastIndex downTo 0)
+            reversedString += str[i]
+
+        return reversedString

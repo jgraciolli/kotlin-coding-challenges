@@ -1,0 +1,4 @@
+        var str = i.toString()
+        str = str.filter { it.isDigit() }.reversed()
+        if (i < 0) return (-str.toInt())
+        return str.toInt()

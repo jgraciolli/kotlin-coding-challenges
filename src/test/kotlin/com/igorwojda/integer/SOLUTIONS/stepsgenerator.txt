@@ -1,0 +1,10 @@
+        val stairs = mutableListOf<String>()
+
+        for (i in 1..n) {
+            val blankSpaces = " ".repeat(n - i)
+            val step = "#".repeat(i) + blankSpaces
+            stairs.add(step)
+            println(step)
+        }
+
+        return stairs

@@ -1,0 +1,7 @@
+        str.forEach {
+            val char = it
+            if (str.count({ it == char }) > 1)
+                return true
+        }
+
+        return false

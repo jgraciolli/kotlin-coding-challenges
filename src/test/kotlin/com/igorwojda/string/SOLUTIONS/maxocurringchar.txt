@@ -1,0 +1,13 @@
+        if (str.isBlank())
+            return null
+
+        var maxOccurringChar = str[0]
+
+        for (i in str.indices) {
+            val strChar = str[i]
+
+            if (str.count {it == strChar} > str.count {it == maxOccurringChar})
+                maxOccurringChar = str[i]
+        }
+
+        return maxOccurringChar

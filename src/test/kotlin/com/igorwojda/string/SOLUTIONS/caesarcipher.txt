@@ -1,0 +1,13 @@
+        val alphabet = ("abcdefghijklmnopqrstuvwxyz")
+        var shiftedString = ""
+        var newShift = shift
+        while (newShift > 25) newShift -= 26
+
+        str.forEach {
+            var charAlphabetIndex = alphabet.indexOf(it)
+            charAlphabetIndex += newShift
+            if (charAlphabetIndex > 25) charAlphabetIndex -= 26
+            shiftedString += alphabet[charAlphabetIndex]
+        }
+
+        return shiftedString

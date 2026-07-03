@@ -77,15 +77,15 @@ multiple times and be persistent over time.
 - [Is tolerant palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/tolerant) ✅
 - [Is permutation palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/permutation) ✅
 - [Is anagram](src/test/kotlin/com/igorwojda/string/isanagram) ✅
-- [Max occurring char](src/test/kotlin/com/igorwojda/string/maxoccurringchar)
-- [String reverse](src/test/kotlin/com/igorwojda/string/reverse)
-- [Find the vowels](src/test/kotlin/com/igorwojda/string/vowels)
-- [Int reverse](src/test/kotlin/com/igorwojda/integer/reverse)
-- [Pyramid generator](src/test/kotlin/com/igorwojda/integer/pyramidgenerator)
-- [Steps generator](src/test/kotlin/com/igorwojda/integer/stepsgenerator)
-- [Fizz Buzz](src/test/kotlin/com/igorwojda/integer/fizzbuzz)
-- [Caesar cipher](src/test/kotlin/com/igorwojda/string/caesarcipher)
-- [Has repeated char](src/test/kotlin/com/igorwojda/string/hasrepeatedcharacter)
+- [Max occurring char](src/test/kotlin/com/igorwojda/string/maxoccurringchar) ✅
+- [String reverse](src/test/kotlin/com/igorwojda/string/reverse) ✅
+- [Find the vowels](src/test/kotlin/com/igorwojda/string/vowels) ✅
+- [Int reverse](src/test/kotlin/com/igorwojda/integer/reverse) ✅
+- [Pyramid generator](src/test/kotlin/com/igorwojda/integer/pyramidgenerator) ✅
+- [Steps generator](src/test/kotlin/com/igorwojda/integer/stepsgenerator) ✅
+- [Fizz Buzz](src/test/kotlin/com/igorwojda/integer/fizzbuzz) ✅
+- [Caesar cipher](src/test/kotlin/com/igorwojda/string/caesarcipher) ✅
+- [Has repeated char](src/test/kotlin/com/igorwojda/string/hasrepeatedcharacter) ✅
 - [Smallest elements](src/test/kotlin/com/igorwojda/list/smallestelements)
 - [Largest elements](src/test/kotlin/com/igorwojda/list/largestelements)
 

@@ -1,0 +1,13 @@
+        val pyramid = mutableListOf<String>()
+        val pyramidBaseLen = n * 2 - 1 // formula for counting pyramid bricks on the biggest floor (base of the pyramid)
+
+        for (i in 1..n) {
+            val brickCount = i * 2 - 1 // same formula but this time for counting pyramid bricks on the current floor
+            val bricks = "#".repeat(brickCount)
+            val sideSpaces = " ".repeat((pyramidBaseLen - brickCount) / 2) // formula for counting the amount of blank side spaces needed
+            val pyramidFloor = "$sideSpaces$bricks$sideSpaces"
+            pyramid.add(pyramidFloor)
+            println(pyramidFloor)
+        }
+
+        return pyramid

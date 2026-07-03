@@ -1,0 +1,2 @@
+        val vowels = arrayOf('a', 'e', 'i', 'o', 'u', 'y')
+        return str.lowercase().count { it in vowels }
