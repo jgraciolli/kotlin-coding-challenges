@@ -86,8 +86,8 @@ multiple times and be persistent over time.
 - [Fizz Buzz](src/test/kotlin/com/igorwojda/integer/fizzbuzz) ✅
 - [Caesar cipher](src/test/kotlin/com/igorwojda/string/caesarcipher) ✅
 - [Has repeated char](src/test/kotlin/com/igorwojda/string/hasrepeatedcharacter) ✅
-- [Smallest elements](src/test/kotlin/com/igorwojda/list/smallestelements)
-- [Largest elements](src/test/kotlin/com/igorwojda/list/largestelements)
+- [Smallest elements](src/test/kotlin/com/igorwojda/list/smallestelements) ✅ (Used a different approach for the challenge's description and examples had errors)
+- [Largest elements](src/test/kotlin/com/igorwojda/list/largestelements) ✅ (Used a different approach for the challenge's description and examples had errors)
 
 **Advanced** 
 

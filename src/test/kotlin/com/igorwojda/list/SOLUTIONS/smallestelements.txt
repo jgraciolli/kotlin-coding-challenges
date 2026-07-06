@@ -1,0 +1,27 @@
+        if (list.isEmpty()) return emptyList()
+
+        var smallestElement = list[0]
+        val smallestList = mutableListOf<Int>()
+
+        while (smallestList.size < count) {
+            for (i in list.indices) {
+                if (list[i] in smallestList) continue
+
+                if (list[i] < smallestElement) {
+                    smallestElement = list[i]
+                    break
+                }
+            }
+
+            smallestList.add(smallestElement)
+            smallestElement = list[0]
+        }
+
+        val newList = mutableListOf<Int>()
+
+        for (i in list.indices) {
+            if (list[i] in smallestList)
+                newList.add(list[i])
+        }
+        
+        return newList

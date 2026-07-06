@@ -1,0 +1,26 @@
+        if (list.isEmpty()) return emptyList()
+
+        var largestElement = 0
+        val largestList = mutableListOf<Int>()
+
+        while (largestList.size < count) {
+            for (i in list.indices) {
+                if (list[i] in largestList) continue
+
+                if (list[i] > largestElement)
+                    largestElement = list[i]
+
+            }
+
+            largestList.add(largestElement)
+            largestElement = 0
+        }
+
+        val newList = mutableListOf<Int>()
+
+        for (i in list.indices) {
+            if (list[i] in largestList)
+                newList.add(list[i])
+        }
+
+        return newList
